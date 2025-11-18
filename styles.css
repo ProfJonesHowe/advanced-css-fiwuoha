@@ -1,42 +1,36 @@
-/* Reset and setup */
 *, *::before, *::after {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
 }
 
-/* Body base styling */
 body {
     font-family: system-ui, sans-serif;
-    background: #0b0e14;
+    background: #0b1f16;
     color: #e6edf3;
 }
 
-/* Color and design variables */
 :root {
-    --primary: #4f9cff; /* Accent blue color */
-    --text: #e6edf3; /* Light text color */
+    --primary: #5aff8d; 
+    --text: #eafbea; 
 }
 
-/* Header layout */
 .site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #111624;
-    padding: 0.75rem 1rem;
+    padding: 1.75rem 2rem;
     position: sticky;
     top: 0;
 }
 
-/* Logo styling */
 .logo {
     color: var(--text);
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Navigation links */
 .site-nav ul {
     list-style: none;
     display: flex;
@@ -46,14 +40,13 @@ body {
 .site-nav a {
     text-decoration: none;
     color: var(--text);
-    padding: 0.5rem 0.75rem;
+    padding: 1.5rem 1.75rem;
     border-radius: 8px;
     transition: background 0.3s;
 }
 
-/* Hover and active link styles */
 .site-nav a:hover,
 .site-nav a.active {
     background: var(--primary);
-    color: #000;
+    color: #ffffff;
 }
