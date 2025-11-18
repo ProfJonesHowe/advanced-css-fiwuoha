@@ -6,7 +6,7 @@
 
 body {
     font-family: system-ui, sans-serif;
-    background: #6ecbff;
+    background: #0b0e14;
     color: #0a1a24;
 }
 
@@ -16,7 +16,7 @@ form {
 }
 
 :root {
-    --primary: #0a1a24; 
+    --primary: #4f9cff; 
     --text:  #e8f7ff; 
 }
 
